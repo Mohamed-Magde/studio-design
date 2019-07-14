@@ -1,0 +1,30 @@
+.section-1 {
+  margin-top: 4.5em;
+  background-color: #fff;
+  padding: 4em;
+  height: 70vh;
+  text-align: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  i {
+    font-size: 2.5rem;
+    border: 2px solid $primary;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin-bottom: 1.3em;
+  }
+
+  p {
+    color: lighten($text, $amount: 40);
+    width: 50%;
+    margin: 0 auto 1em;
+    line-height: 1.7;
+  }
+}
